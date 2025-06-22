@@ -29,26 +29,34 @@ mycontacts-backend/
 │
 ├── config/
 │ └── dbConnection.js # MongoDB connection setup
+
 │
+
 ├── controllers/
 │ ├── contactController.js # Handles contact CRUD logic
 │ └── userController.js # Handles auth logic
 │
+
 ├── middleware/
 │ ├── validateTokenHandler.js # JWT validation
 │ └── errorHandler.js # Central error handler
+
 │
+
 ├── models/
 │ ├── contactModel.js
 │ └── userModel.js
 │
+
 ├── routes/
 │ ├── contactRoutes.js
 │ └── userRoutes.js
 │
+
 ├── .env
 ├── server.js
 └── package.json
+
 📮 API Endpoints
 | Method | Endpoint              | Description         |
 | ------ | --------------------- | ------------------- |
